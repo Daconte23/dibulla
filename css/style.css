@@ -89,6 +89,38 @@ header{
 .img-portada{
     width: 100%;
     height: 100%;
+    overflow: hidden;
+}
+
+.img-portada ul{
+    width: 400%;
+    padding: 0%;
+    display: flex;
+    animation: cambio 10s infinite;
+    animation-direction: alternate;
+}
+
+.img-portada li{
+    width: 100%;
+}
+
+.img-portada img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    75% {margin-left: -200%;}
+
+    80% {margin-left: -300%;}
+    100% {margin-left: -300%;}
 }
 
 .titulo{
@@ -107,7 +139,7 @@ header{
 #container{
     width: 100%;
     position: absolute;
-    bottom: -6px;
+    bottom: -10px;
     overflow: hidden;
 }
 
