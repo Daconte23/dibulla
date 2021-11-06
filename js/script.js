@@ -19,27 +19,4 @@ const onbservador = new IntersectionObserver (cargarimagen,{
 onbservador.observe(imagen1);
 onbservador.observe(imagen2);
 
-const parrafo1 = document.getElementById('parrafo1');
-const parrafo2 = document.getElementById('parrafo2');
-const parrafo3 = document.getElementById('parrafo3');
-const parrafo4 = document.getElementById('parrafo4');
 
-const cargarparrafo = (entradas, on1bservador) => {
-    
-    entradas.forEach((entrada) => {
-        if(entrada.isIntersecting){
-            entrada.target.classList.add('visible');
-        }
-    });
-}
-
-const on1bservador = new IntersectionObserver (cargarparrafo,{
-    root: null,
-    rootMargin: '0px 0px 0px 0px',
-    threshold: 0.3
-} );
-
-on1bservador.observe(parrafo1);
-on1bservador.observe(parrafo2);
-on1bservador.observe(parrafo3);
-on1bservador.observe(parrafo4);
