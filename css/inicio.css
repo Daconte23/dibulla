@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/*---------------------------------Header----------------------------------------------------------*/
+
+.img-portada{
+    overflow: hidden;
+}
+
+.img-portada ul{
+    width: 400%;
+    padding: 0%;
+    display: flex;
+    animation: cambio 10s infinite;
+    animation-direction: alternate;
+}
+
+.img-portada li{
+    width: 100%;
+}
+
+.img-portada img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    75% {margin-left: -200%;}
+
+    80% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+/*-------------------------------------section----------------------------------------------------------------*/
+
+.catalago{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+}
+
+.sobre{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 60px;
+    margin-bottom: 4%;
+}
+
+.dibulla{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 30px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: justify;
+}
+
+.dibulla img{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    opacity: 0;
+    transition: .7s ease-in-out all;
+}
+
+.dibulla img.izquierda{
+    transform: translateX(-100px);
+}
+
+.dibulla img.derecha{
+    transform: translateX(100px);
+}
+
+.dibulla img.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
