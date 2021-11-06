@@ -33,13 +33,13 @@ const cargarparrafo = (entradas, onbservador) => {
     });
 }
 
-const onbservador = new IntersectionObserver (cargarimagen,{
+const on1bservador = new IntersectionObserver (cargarparrafo,{
     root: null,
     rootMargin: '0px 0px 0px 0px',
     threshold: 0.3
 } );
 
-onbservador.observe(parrafo1);
-onbservador.observe(parrafo2);
-onbservador.observe(parrafo3);
-onbservador.observe(parrafo4);
+on1bservador.observe(parrafo1);
+on1bservador.observe(parrafo2);
+on1bservador.observe(parrafo3);
+on1bservador.observe(parrafo4);
