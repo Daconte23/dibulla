@@ -24,7 +24,7 @@ const parrafo2 = document.getElementById('parrafo2');
 const parrafo3 = document.getElementById('parrafo3');
 const parrafo4 = document.getElementById('parrafo4');
 
-const cargarparrafo = (entradas, onbservador) => {
+const cargarparrafo = (entradas, on1bservador) => {
     
     entradas.forEach((entrada) => {
         if(entrada.isIntersecting){
