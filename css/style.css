@@ -340,7 +340,7 @@ footer{
 
 }
 
-@media screen and (max-width: 428px){
+@media screen and (max-width: 400px){
     .barrita{
         display: none;
     }
@@ -348,7 +348,7 @@ footer{
     
 
     #container{
-        margin-bottom: 2%;
+        margin-bottom: 1.5%;
     }
     
     
