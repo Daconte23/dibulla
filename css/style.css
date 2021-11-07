@@ -247,7 +247,7 @@ header{
 
     
     #container{
-        margin-bottom: 1%;
+        margin-bottom: 0.8%;
     }
     
     .sobre h1{
@@ -335,16 +335,25 @@ header{
 }
 
 @media screen and (max-width: 600px){
+    
+    #container{
+        margin-bottom: 1%;
+    }
 
     .wave{
-        margin-bottom: -1.6%;
+        margin-bottom: -1.3%;
     }
 
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 400px){
+    
+    #container{
+        margin-bottom: 1.5%;
+    }
+    
     .wave{
-        margin-bottom: -1.9%;
+        margin-bottom: -1.5%;
     }
 }
 
