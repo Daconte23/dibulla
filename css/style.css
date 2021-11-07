@@ -254,6 +254,29 @@ header{
         font-size: 40px;
     }
 
+    
+    .container_catalogo{
+        flex-direction: column;
+    }
+
+    .text_catalogo{
+        width: 80%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        font-size: 15px;
+    }
+
+    .catalogo_img{
+        width: 80%;
+        margin-left: 0%;
+    }
+
+    .img_right{
+        width: 80%;
+        margin-right: 0%;
+    }
+    
+    
     .dibulla{
         margin-left: 19%;
         margin-right: 19%;
