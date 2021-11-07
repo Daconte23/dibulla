@@ -72,6 +72,14 @@
     font-weight: 600;
 }
 
+.text_catalogo h1{
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+}
+
+
 .catalogo_img{
     width: 40%;
     height: 100%;
