@@ -316,6 +316,22 @@ footer{
         width: 80%;
         margin-right: 0%;
     }
+    
+        .podes{
+        font-size: 20px;
+    }
+
+    .cajas{
+        height: 100px;
+    }
+
+    .sombra{
+        font-size: 15px;
+    }
+
+    .sombra i{
+        font-size: 20px;
+    }
 
 }
 
@@ -354,6 +370,18 @@ footer{
     
     .wave{
         margin-bottom: -1.9%;
+    }
+    
+        .cajas{
+        height: 70px;
+    }
+
+    .sombra{
+        font-size: 10px;
+    }
+
+    .sombra i{
+        font-size: 15px;
     }
 }
 
