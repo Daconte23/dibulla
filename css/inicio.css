@@ -124,3 +124,71 @@
     transform: translateX(0);
 }
 
+
+/*----------------------------------------------cajas-------------------------------------------------------*/
+
+.podes{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Dongle', sans-serif;
+}
+
+.container_cajas{
+    width: 80%;
+    height: 100%;
+    margin: 5% 10%;
+}
+
+.cajas_father{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cajas{
+    width: 30%;
+    border-radius: 5px;
+    margin: 0.6%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.295);
+    box-shadow: 5px 8px 15px 0px;
+}
+
+.sombra{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    font-size: 20px;
+}
+
+.sombra i{
+    color: white;
+    font-size: 30px;
+    
+}
+
+
+.cajas img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.cajas:hover{
+    transform: scale(1.04);
+    transition: all 300ms;
+}
+
+
