@@ -172,6 +172,10 @@
     font-size: 20px;
 }
 
+.sombra a{
+    color: white;
+}
+
 .sombra i{
     color: white;
     font-size: 30px;
