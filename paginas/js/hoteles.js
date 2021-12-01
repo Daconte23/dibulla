@@ -1,3 +1,4 @@
+/*
 const typed = new Typed('.typed', {
     strings: [
         '<i class="text2">Descanso</i>',
@@ -13,3 +14,4 @@ const typed = new Typed('.typed', {
         loopCount: false,
         showCursor: true,
 });
+*/
