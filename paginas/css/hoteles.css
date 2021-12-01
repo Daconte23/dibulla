@@ -93,6 +93,7 @@ header img{
     font-family: 'Dongle', sans-serif;
 }
 
+/*
 .profile_text{
     position: absolute;
     margin-top: 15%;
@@ -107,6 +108,8 @@ header img{
     font-style: normal;
     font-family: 'Poppins', sans-serif;
 }
+
+*/
 
 
 #container{
@@ -134,7 +137,7 @@ header img{
 }
 
 
-
+/*
 .search_container{
     margin-top: 10%;
     position: absolute;
@@ -185,7 +188,7 @@ header img{
 .btn:hover{
     background: rgb(0, 188, 235);
 }
-
+*/
 .hoteles_container{
     display: flex;
     position: relative;
@@ -269,12 +272,12 @@ header img{
     cursor: pointer;
     border: none;
     color: white;
-    background: rgb(0, 204, 255);
+    background: #55aa2d;
     border-radius: 10px;
     transition: box-shadow 600ms;
 }
 .hotel input:hover{
-    box-shadow: 1px 1px 20px 0px rgb(33, 211, 255);
+    box-shadow: 1px 1px 20px 0px #5fc232;
 }
 
 
